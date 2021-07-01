@@ -1,0 +1,26 @@
+{
+  "name": "scooterrental",
+  "version": "1.0.0",
+  "description": "Scooter rental app utlizing JS, UML, OOP, & diagrams",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:report": "jest --coverage=true"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l1nd53y/ScooterRental.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l1nd53y/ScooterRental/issues"
+  },
+  "homepage": "https://github.com/l1nd53y/ScooterRental#readme",
+  "dependencies": {
+    "jest": "^27.0.6"
+  }
+}

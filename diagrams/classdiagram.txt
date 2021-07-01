@@ -1,0 +1,25 @@
+class Scooter {
+  id: INTEGER
+  amountOfCharge: INTEGER
+  void charge()
+}
+
+class Customer {
+  name: STRING
+  amountCashAvail: INTEGER
+}
+
+class ScooterKiosk {
+  numOfTotalScooters: INTEGER
+  int numOfScootersAvail: INTEGER
+  cashAmount: INTEGER
+}
+
+class ScooterCharging {
+  id: STRING
+  type: STRING
+  isCharging: BOOLEAN
+}
+
+
+
