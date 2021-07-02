@@ -1,4 +1,3 @@
-const Customer = require('../src/Customer')
 const Scooter = require('../src/Scooter');
 
 class ScooterStation {
