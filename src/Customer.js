@@ -9,7 +9,11 @@ class Customer {
     }
 
     downloadedScooterApp() {
-        if(this.age >= 18) {
+        return true;
+    }
+
+    readyToRent() {
+        if(this.age >= 18 && this.downloadedScooterApp() === true) {
             return true;
         } else {
             return false;

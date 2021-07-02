@@ -6,7 +6,12 @@ describe('Customer', () => {
     const testCustomer2 = new Customer('Thomas', 'Trujillo', 'thomas@email.com', '0000000000000000', '16');
     test('App has been downloaded', () => {
         expect(testCustomer1.downloadedScooterApp()).toBe(true);
-        expect(testCustomer2.downloadedScooterApp()).toBe(false);
+        expect(testCustomer2.downloadedScooterApp()).toBe(true);
+    })
+
+    test('Qualifies to rent scooter', () => {
+        expect(testCustomer1.readyToRent()).toBe(true);
+        expect(testCustomer2.readyToRent()).toBe(false);
     })
     
     test('Customer details registered', () => {
@@ -19,4 +24,3 @@ describe('Customer', () => {
     })
 
 });
-

@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1625245478941" clover="3.2.0">
-  <project timestamp="1625245478941" name="All files">
-    <metrics statements="27" coveredstatements="27" conditionals="8" coveredconditionals="8" methods="9" coveredmethods="9" elements="44" coveredelements="44" complexity="0" loc="27" ncloc="27" packages="1" files="3" classes="3"/>
+<coverage generated="1625247918201" clover="3.2.0">
+  <project timestamp="1625247918201" name="All files">
+    <metrics statements="28" coveredstatements="28" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10" elements="48" coveredelements="48" complexity="0" loc="28" ncloc="28" packages="1" files="3" classes="3"/>
     <file name="Customer.js" path="C:\Users\Trujli8\Desktop\Assignments\ScooterRental\src\Customer.js">
-      <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
+      <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="3" coveredmethods="3"/>
       <line num="3" count="2" type="stmt"/>
       <line num="4" count="2" type="stmt"/>
       <line num="5" count="2" type="stmt"/>
       <line num="6" count="2" type="stmt"/>
       <line num="7" count="2" type="stmt"/>
-      <line num="12" count="2" type="cond" truecount="2" falsecount="0"/>
-      <line num="13" count="1" type="stmt"/>
-      <line num="15" count="1" type="stmt"/>
-      <line num="21" count="1" type="stmt"/>
+      <line num="12" count="3" type="stmt"/>
+      <line num="16" count="2" type="cond" truecount="4" falsecount="0"/>
+      <line num="17" count="1" type="stmt"/>
+      <line num="19" count="1" type="stmt"/>
+      <line num="25" count="1" type="stmt"/>
     </file>
     <file name="Scooter.js" path="C:\Users\Trujli8\Desktop\Assignments\ScooterRental\src\Scooter.js">
       <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
